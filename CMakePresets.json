@@ -1,0 +1,11 @@
+{
+    "version": 6,
+    "configurePresets": [
+        {
+            "name": "default",
+            "displayName": "Default",
+            "generator": "MinGW Makefiles",
+            "binaryDir": "${sourceDir}/build"
+        }
+    ]
+}

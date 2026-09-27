@@ -1,3 +1,6 @@
+#ifndef SIGNATURE_STATUS
+#define SIGNATURE_STATUS
+
 enum class SignatureStatus
 {
   Status_Valid,
@@ -8,3 +11,5 @@ enum class SignatureStatus
   Status_Revoked,
   Status_Error
 };
+
+#endif

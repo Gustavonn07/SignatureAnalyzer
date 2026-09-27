@@ -1,0 +1,14 @@
+{
+    "version": 6,
+    "configurePresets": [
+        {
+            "name": "ucrt64",
+            "displayName": "UCRT64",
+            "generator": "MinGW Makefiles",
+            "binaryDir": "${sourceDir}/build/ucrt64",
+            "cacheVariables": {
+                "CMAKE_CXX_COMPILER": "C:/msys64/ucrt64/bin/g++.exe"
+            }
+        }
+    ]
+}
